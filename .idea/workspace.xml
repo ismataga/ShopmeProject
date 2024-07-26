@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jbx3B2J7dZb4AzYq6bRzj9t3NO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.All in ShopmeProject (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (4).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (5).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShopmeFrontEndApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeBackEnd [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeCommon [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeFrontEnd [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeFrontEnd [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeProject [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeProject [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeWebParent [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeWebParent [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShopmeBackEndApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShopmeFrontEndApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ismat/Desktop/IdeaProjects/data-structure-algoritms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ismat\Desktop\IdeaProjects\ShopmeProject\ShopmeWebParent\ShopmeFrontEnd\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ismat\Desktop\IdeaProjects\ShopmeProject\ShopmeWebParent\ShopmeBackEnd" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.admine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in ShopmeProject (4)">
+    <configuration name="All in ShopmeProject (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ShopmeProject (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ShopmeProject (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ShopmeProject (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ShopmeProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopmeProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopmeBackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.mastercode.shopmebackend.ShopmeBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopmeCommon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.mastercode.shopmecommon.ShopmeCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeFrontEndApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopmeFrontEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.shopme.site.ShopmeFrontEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeFrontEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopmeFrontEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.shopme.ShopmeFrontEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopmeWebParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ShopmeWebParent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.mastercode.shopmewebparent.ShopmeWebParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in ShopmeProject (4)" />
+        <item itemvalue="JUnit.All in ShopmeProject" />
+        <item itemvalue="JUnit.All in ShopmeProject (5)" />
+        <item itemvalue="JUnit.All in ShopmeProject (3)" />
+        <item itemvalue="JUnit.All in ShopmeProject (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="" />
+      <created>1721669376066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721669376066</updated>
+      <workItem from="1721669377703" duration="3216000" />
+      <workItem from="1721672633879" duration="1125000" />
+      <workItem from="1721673784804" duration="3795000" />
+      <workItem from="1721961726223" duration="308000" />
+      <workItem from="1721962052718" duration="29000" />
+      <workItem from="1721963518180" duration="438000" />
+      <workItem from="1721963986137" duration="1208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
