@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /ShopmeAdmin
+
+spring:
+  application:
+    name: ShopmeBackEnd
+  datasource:
+    url: jdbc:postgresql://${DATABASE_IP:localhost}:${DATABASE_PORT:5432}/shopmeDb
+    username: ${POSTGRES_USERNAME:postgres}
+    password: ${POSTGRES_PASSWORD:password}
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
