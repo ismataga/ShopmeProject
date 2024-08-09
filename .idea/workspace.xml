@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/org/shopme/common/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
+    <list default="true" id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="write unit test UserRepositoryTests">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/RoleRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/RoleRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeCommon/src/main/java/org/shopme/common/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeCommon/src/main/java/org/shopme/common/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,61 +45,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Docker.ShopmeBackEnd/docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
-    "JUnit.All in ShopmeProject (1).executor": "Run",
-    "JUnit.All in ShopmeProject (2).executor": "Run",
-    "JUnit.All in ShopmeProject (3).executor": "Run",
-    "JUnit.All in ShopmeProject (4).executor": "Run",
-    "JUnit.All in ShopmeProject (5).executor": "Run",
-    "JUnit.All in ShopmeProject.executor": "Run",
-    "JUnit.RoleRepositoryTests.executor": "Run",
-    "JUnit.ShopmeFrontEndApplicationTests.executor": "Run",
-    "JUnit.UserRepositoryTests.executor": "Run",
-    "JUnit.UserRepositoryTests.testCreateNewUserWithTwoRole.executor": "Run",
-    "JUnit.UserRepositoryTests.testCreateUser.executor": "Run",
-    "JUnit.UserRepositoryTests.testGetById.executor": "Run",
-    "JUnit.UserRepositoryTests.testListAllUsers.executor": "Run",
-    "JUnit.UserRepositoryTests.testUpdateUserDetails.executor": "Run",
-    "JUnit.UserRepositoryTests.testUpdateUserRoles.executor": "Run",
-    "Maven.ShopmeBackEnd [install].executor": "Run",
-    "Maven.ShopmeCommon [install].executor": "Run",
-    "Maven.ShopmeFrontEnd [clean].executor": "Run",
-    "Maven.ShopmeFrontEnd [install].executor": "Run",
-    "Maven.ShopmeProject [clean].executor": "Run",
-    "Maven.ShopmeProject [install].executor": "Run",
-    "Maven.ShopmeWebParent [install].executor": "Run",
-    "Maven.ShopmeWebParent [verify].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ShopmeBackEndApplication (1).executor": "Run",
-    "Spring Boot.ShopmeFrontEndApplication (1).executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ismet-aghamirzayev/IdeaProjects/product-service-gRPC",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.ShopmeBackEnd/docker-compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (4).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject (5).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShopmeProject.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoleRepositoryTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShopmeFrontEndApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testCreateNewUserWithTwoRole.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testCreateUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testDeleteUserDetails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testGetById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testListAllUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testUpdateUserDetails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTests.testUpdateUserRoles.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeBackEnd [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeCommon [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeFrontEnd [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeFrontEnd [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeProject [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeProject [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeWebParent [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShopmeWebParent [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShopmeBackEndApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShopmeFrontEndApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ismet-aghamirzayev/IdeaProjects/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates" />
       <recent name="C:\Users\Ismat\Desktop\IdeaProjects\ShopmeProject\ShopmeWebParent\ShopmeFrontEnd\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -109,7 +111,7 @@
       <recent name="org.admine" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRepositoryTests.testDeleteUserDetails">
+  <component name="RunManager" selected="Spring Boot.ShopmeBackEndApplication (1)">
     <configuration name="UserRepositoryTests.testDeleteUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopmeBackEnd" />
       <extension name="coverage">
@@ -272,11 +274,25 @@
       <workItem from="1721963518180" duration="438000" />
       <workItem from="1721963986137" duration="1208000" />
       <workItem from="1723087483183" duration="2907000" />
-      <workItem from="1723169374282" duration="3031000" />
+      <workItem from="1723169374282" duration="9059000" />
+      <workItem from="1723219648858" duration="6560000" />
     </task>
+    <task id="LOCAL-00001" summary="write unit test UserRepositoryTests">
+      <option name="closed" value="true" />
+      <created>1723172676688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723172676688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="write unit test UserRepositoryTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="write unit test UserRepositoryTests" />
   </component>
 </project>
