@@ -111,4 +111,11 @@ public class UserRepositoryTests {
         User user = repo.findById(1).get();
         repo.delete(user);
     }
+
+    @Test
+    public void testGetUserByEmail() {
+        String email = "test2@example.com";
+        User user = repo.getUserByEmail(email);
+        assertThat(user).isNotNull();
+    }
 }
