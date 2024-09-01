@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="write unit test UserRepositoryTests">
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/PasswordEncoderTest.java" afterDir="false" />
+    <list default="true" id="6e68d1c7-cb96-4d1c-8cfd-656f6d4c328a" name="Changes" comment="check email duplications">
+      <change afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/java/org/shopme/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/test/java/org/shopme/admin/user/UserRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Docker.ShopmeBackEnd/docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
+    "Docker.ShopmeBackEnd/docker-compose.yaml: Compose Deployment.executor": "Run",
     "JUnit.All in ShopmeProject (1).executor": "Run",
     "JUnit.All in ShopmeProject (2).executor": "Run",
     "JUnit.All in ShopmeProject (3).executor": "Run",
@@ -89,7 +83,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ismet-aghamirzayev/IdeaProjects/eduwiseNew",
+    "last_opened_file_path": "/home/ismet-aghamirzayev/IdeaProjects/data-structure-algorithms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,6 +105,7 @@
       <recent name="C:\Users\Ismat\Desktop\IdeaProjects\ShopmeProject\ShopmeWebParent\ShopmeFrontEnd\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ShopmeWebParent/ShopmeBackEnd/src/main/resources" />
       <recent name="C:\Users\Ismat\Desktop\IdeaProjects\ShopmeProject\ShopmeWebParent\ShopmeBackEnd" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -144,22 +139,6 @@
       <option name="PACKAGE_NAME" value="org.shopme.admin.user" />
       <option name="MAIN_CLASS_NAME" value="org.shopme.admin.user.PasswordEncoderTest" />
       <option name="METHOD_NAME" value="testEncodePassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests.testDeleteUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopmeBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.shopme.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.shopme.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="org.shopme.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testDeleteUserDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,6 +202,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopmeBackEnd/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="ShopmeWebParent/ShopmeBackEnd/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="ShopmeBackEnd/docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -244,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
         <item itemvalue="Docker.ShopmeBackEnd/docker-compose.yaml.postgres: Compose Deployment" />
+        <item itemvalue="Docker.ShopmeBackEnd/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
         <item itemvalue="JUnit.PasswordEncoderTest" />
         <item itemvalue="JUnit.PasswordEncoderTest.testEncodePassword" />
-        <item itemvalue="JUnit.UserRepositoryTests.testDeleteUserDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +266,9 @@
       <workItem from="1723169374282" duration="9059000" />
       <workItem from="1723219648858" duration="6560000" />
       <workItem from="1723443606994" duration="2905000" />
-      <workItem from="1723463553669" duration="10341000" />
+      <workItem from="1723463553669" duration="15655000" />
+      <workItem from="1724659268282" duration="1039000" />
+      <workItem from="1724660313503" duration="11802000" />
     </task>
     <task id="LOCAL-00001" summary="write unit test UserRepositoryTests">
       <option name="closed" value="true" />
@@ -289,14 +278,34 @@
       <option name="project" value="LOCAL" />
       <updated>1723172676688</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="check email duplications">
+      <option name="closed" value="true" />
+      <created>1723626686672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723626686672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="write unit test UserRepositoryTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="write unit test UserRepositoryTests" />
+    <MESSAGE value="check email duplications" />
+    <option name="LAST_COMMIT_MESSAGE" value="check email duplications" />
   </component>
 </project>
