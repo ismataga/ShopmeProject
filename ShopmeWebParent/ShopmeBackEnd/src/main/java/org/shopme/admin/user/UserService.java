@@ -8,6 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @Service
 @RequiredArgsConstructor
@@ -39,5 +40,13 @@ public class UserService {
     public boolean isEmailUnique(String email) {
         User userByEmail = userRepository.getUserByEmail(email);
         return userByEmail == null;
+    }
+
+    public User get(Integer id) {
+        try {
+            return userRepository.findById(id).get();
+        }catch (NoSuchElementException ex){
+            throw new UserNotFoundException("User not found with id: " + id);
+        }
     }
 }
